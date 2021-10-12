@@ -1,7 +1,6 @@
 from flask import Flask
 from flask.json import jsonify
-from webscr import getVideos
-import json
+from app.webscr import getVideos
 
 app = Flask(__name__)
 
