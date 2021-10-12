@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-from video import *
+from app.video import Video
 import json
 
 def encodeTittle(tittle, encoding, removeFinal, removeInitial):
